@@ -1,0 +1,157 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,100&display=swap');
+body{
+    height: 100vh;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #0a0a0a;
+}
+.container-2{
+    background-image: url(image/thusombedu.jpg);
+    height: 45vh;
+    background-position-x: right;
+    background-size: 45rem;
+}
+header{
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.head{ 
+    height: 5vh;
+    width: 70rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ul{
+    list-style: none;
+    display: flex;
+   margin: 0;
+   padding: 0;
+
+}
+h1{
+   
+    margin: 0;
+}
+p{
+   font-size: large;
+}
+ul li{
+    padding: 0.5rem;
+  
+}
+.home, .cor span, .corps h1 span{
+    color: rgb(250, 250, 9);
+}
+h1{
+    color: white;
+}
+a{
+    font-size: large;
+    color: white;
+    text-decoration: none;
+}
+.head button{
+   padding: 0 2rem ;
+    height: 2rem;
+    border: 2px solid rgb(250, 250, 9);
+    border-radius: 15px;
+    background-color: transparent;
+    color: #fff;
+    font-size: large;
+}
+.corps{
+    top: 1rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+   padding: 4rem;
+}
+.paragraphe{
+    font-size: large;
+    margin-top: 0.5rem;
+color: #fff;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+h3{
+    margin-bottom: 0;
+}
+.side-bottom{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.side-bottom .card{
+   width: 20%;
+    height: 20rem;
+    padding: 1rem;
+    margin:0 0.2rem;
+}
+.img{
+    border-radius: 5px;
+    width: 100%;
+    height: 256px;
+}
+ul {
+    list-style: none;
+    display:flex;
+    font-size: small;
+    justify-content: space-between;
+    color: #fff;
+    margin-block-start: 0;
+  
+    padding-inline-start: 0px;
+}
+ul .movie{
+    border: 1px solid;
+    border-radius: 5px;
+    color: rgb(250, 250, 9);
+    padding: 0;
+    height: 1rem;
+}
+.bottom{
+   width: 100%; 
+}
+.color{ 
+  width: 9rem;
+  height: 0.2rem;
+  margin: auto;
+ background-color:  rgb(250, 250, 9);
+ border-radius: 50%;
+}
+footer {
+    border-top: 1px solid;
+   color: #fff;
+}
+footer h3{
+    color:  rgb(250, 250, 9);
+}
+footer p{
+    font-size: small;
+}
+footer p:nth-child(1) span{
+  display: flex;
+}
+.pied-de-page{
+    display: flex;
+    justify-content: space-around
+}
+.pure{
+    width: 20rem;
+}
+footer .card:nth-child(2) div{
+  text-align: center;
+}
+footer .card:nth-child(2) img{
+  
+    margin: 0.7rem;
+    margin-top: 0;
+}
