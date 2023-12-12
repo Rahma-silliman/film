@@ -8,6 +8,7 @@ body{
 }
 .container-2{
     background-image: url(image/thusombedu.jpg);
+  background-repeat:no-repeat;
     height: 45vh;
     background-position-x: right;
     background-size: 45rem;
